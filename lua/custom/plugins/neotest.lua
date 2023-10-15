@@ -17,5 +17,7 @@ return {
           -- },
         },
       }
+      vim.keymap.set('n', '<leader>tr', "<CMD>Neotest run<CR>", { desc = 'Neotest Run' })
+      vim.keymap.set('n', '<leader>ts', "<CMD>Neotest summary<CR>", { desc = 'Neotest Summary' })
     end,
 }
