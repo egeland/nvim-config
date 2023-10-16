@@ -44,6 +44,7 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.o.relativenumber = true
 vim.o.showmode = false
+vim.o.scrolloff = 8
 
 -- Install package manager
 --    https://github.com/folke/lazy.nvim
